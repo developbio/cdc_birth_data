@@ -12,6 +12,8 @@ Your dependencies will vary by operating system. There are some R dependencies y
 
 Note that the zipped files are in the 100-250MB range. So, they may take a while to download and unzip. Once unzipped, they are each in the 1-5 GB range. 
 
+If you want to make gifs in R using many years' worth of data (say, more than 10), you should have >8GB of RAM. 
+
 ## Notes About the Data
 **These data are a mess.** Data coding changes year-to-year, there are missing data, and in a couple instances, CDC wrote down the wrong column numbers in their guidebooks.
 
@@ -62,5 +64,5 @@ The files contain hundreds more variables than the few we extract. For instance,
 - source used to pay for delivery
 - etc.
 
-So, consider these bash scripts a general framework for interfacing with the CDC data. If you want access to more variables, go into the [user guides](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm), find the column numbers for the relevant variables, check the raw files to make sure the user guide wasn't incorrect, and then modify the scripts accordingly.
+So, consider these bash scripts a general framework for interfacing with the CDC birth data. If you want access to more variables, go into the [user guides](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm), find the column numbers for the relevant variables, check the raw files to make sure the user guide wasn't incorrect, and then modify the scripts accordingly.
 
