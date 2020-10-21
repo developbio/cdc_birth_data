@@ -61,6 +61,6 @@ The files contain hundreds more variables than the few we extract. For instance,
 - city and county of birth (when population >= 100,000, and only for 2004 and earlier)
 - birth weight
 - source used to pay for delivery
-- and much more.
+- etc.
 
 
