@@ -66,4 +66,5 @@ The files contain hundreds more variables than the few we extract. For instance,
 - source used to pay for delivery
 - etc.
 
+So, consider these bash scripts as a general framework for interfacing with the CDC data. If you want access to more variables, go into the [user guides](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm), find the column numbers for the relevant variables, check the raw files to make sure the user guide wasn't incorrect, and then modify the scripts accordingly.
 
