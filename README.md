@@ -23,7 +23,7 @@ The real messiness begins in 2003, when states began phasing out the 1989 birth 
 
 **Because of this, a substantial proportion of education data are missing between 2009 and 2013 (32%, 23%, 14%, 12%, and 10%, respectively).** These levels are much higher than those from 2003-2008, which are consistent with other years (in the 0.1% to 5% range).
 
-The roll-out of the revised form also resulted in some data-coding oddities. For instance, in 2003, when only 2 states had implemented the new form, maternal age was coded in two ways, one of which was $coded_age = actual_age - 13$ (but only for ages >= 15). (I assume this was done to harmonize the unrevised and revised forms, but it doesn't make much sense; the following year's coding was normal.)
+The roll-out of the revised form also resulted in some data-coding oddities. For instance, in 2003, when only 2 states had implemented the new form, maternal age was coded in two ways, one of which was $$coded_age = actual_age - 13$$ (but only for ages >= 15). (I assume this was done to harmonize the unrevised and revised forms, but it doesn't make much sense; the following year's coding was normal.)
 
 ### Easier ways to access the data
 If you don't need data before 1995 and are willing to have maternal age binned (this is the case from 1995-2003) and only have access to a subset of all variables, use the CDC's [data access portal](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm). 
