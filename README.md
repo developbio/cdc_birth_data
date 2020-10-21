@@ -5,16 +5,12 @@
 
 Data from [CDC Vital Statistics](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm).
 
-Run `sh master_script.sh $1 $2 $3`, where $1 is your start year, $2 is your increment, and $3 is your end year. For instance, if you want data for every year from 1969 to 2019 (these are the limits of the years CDC provides data for), you'd run `sh master_script.sh 1969 1 2019`.
-
-Note that the zipped files are in the 100-250MB range. So, they may take a while to download and unzip. Once unzipped, they are each in the 1-5 GB range. 
-
-## Plotting
-
-There are many possible plots you can make. You can stratify by education, birth order, etc. Mess around with `R_scripts/plot_data.R` to generate different plots. You'll want to change the duration of the animation, depending on how many years of data you include.
+To generate plots, run `sh master_script.sh $1 $2 $3`, where $1 is your start year, $2 is your increment, and $3 is your end year. For instance, if you want data for every year from 1969 to 2019 (these are the limits of the years CDC provides data for), you'd run `sh master_script.sh 1969 1 2019`. This will download, unzip, extract, clean, and plot the data.
 
 ## System Dependencies
 Your dependencies will vary by operating system. There are some R dependencies you might have to install if you're on Linux. See `dependencies.sh`.
+
+Note that the zipped files are in the 100-250MB range. So, they may take a while to download and unzip. Once unzipped, they are each in the 1-5 GB range. 
 
 ## Notes About the Data
 **These data are a mess.** Data coding changes year-to-year, there are missing data, and in a couple instances, CDC wrote down the wrong column numbers in their guidebooks.
