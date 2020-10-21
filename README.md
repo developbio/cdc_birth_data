@@ -1,5 +1,8 @@
 # CDC Births
 
+
+![Maternal Age Density by Education Group and Year](/images/1969_2019_fives_all.gif)
+
 Data from [CDC Vital Statistics](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm).
 
 Run `sh master_script.sh $1 $2 $3`, where $1 is your start year, $2 is your increment, and $3 is your end year. For instance, if you want data for every year from 1969 to 2019 (these are the limits of the years CDC provides parseable data for), you'd run `sh master_script.sh 1969 1 2019`.
