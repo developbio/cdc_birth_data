@@ -51,7 +51,7 @@ You might wonder if these data are missing systematically, but this doesn't seem
 
 Conditional on reporting ART use, there are 4 reporting options: "Yes", "No", "Not Applicable", and "Unknown or not stated". Averaging data across 2014-2018, among all education groups, >95% choose "Not Applicable". There is a strong positive trend with education for reporting "Yes". Importantly, the rates of "Uknown" and "No" don't seem to differ among education groups, so systematic underreporting doesn't seem to be an issue. (Group 9 reported a blank for education, Group 8 is PhD or Professional Degree, Group 7 is Master's, etc.):
 
-![ART Reported Use by Education Group](ART_EDU.png)
+![ART Reported Use by Education Group](/images/ART_EDU.png)
 
 I've not yet added the scripts for creating the ART plots. The data extraction script also doesn't extract the ART data. I might add these later.
 
