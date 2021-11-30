@@ -5,7 +5,7 @@
 
 **Purpose:** I wanted to know what was driving increases in IVF use and decreases in the total fertility rate. So, I first investigated how maternal age at birth has changed over time, both in aggregate and by education level. 
 
-![Histogram of Maternal Age, First Births Only](hist_first_child_no_edu.gif)
+![Histogram of Maternal Age, First Births Only](/images/hist_first_child_no_edu.gif)
 
 Data from [CDC Vital Statistics](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm).
 
