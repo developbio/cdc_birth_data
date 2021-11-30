@@ -3,16 +3,13 @@
 
 ![Maternal Age Density by Education Group and Year](/images/1969_2019_fives_all.gif)
 
+**Purpose:** I wanted to know what was driving increases in IVF use and decreases in the total fertility rate. So, I first investigated how maternal age at birth has changed over time, both in aggregate and by education level. 
+
 Data from [CDC Vital Statistics](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm).
 
+## How To Recreate these Charts
+
 To generate plots, run `sh master_script.sh $1 $2 $3`, where $1 is your start year, $2 is your increment, and $3 is your end year. For instance, if you want data for every year from 1969 to 2019 (these are the limits of the years CDC provides data for), you'd run `sh master_script.sh 1969 1 2019`. This will download, unzip, extract, clean, and plot the data.
-
-## System Dependencies
-Your dependencies will vary by operating system. There are some R dependencies you might have to install if you're on Linux. See `dependencies.sh`.
-
-Note that the zipped files are in the 100-250MB range. So, they may take a while to download and unzip. Once unzipped, they are each in the 1-5 GB range. 
-
-If you want to make gifs in R using many years' worth of data (say, more than 10), you should have >8GB of RAM. 
 
 ## Notes About the Data
 **These data are a mess.** Data coding changes year-to-year, there are missing data, and in a couple instances, CDC wrote down the wrong column numbers in their guidebooks.
@@ -65,4 +62,11 @@ The files contain hundreds more variables than the few we extract. For instance,
 - etc.
 
 So, consider these bash scripts a general framework for interfacing with the CDC birth data. If you want access to more variables, go into the [user guides](https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm), find the column numbers for the relevant variables, check the raw files to make sure the user guide wasn't incorrect, and then modify the scripts accordingly.
+
+## System Dependencies
+Your dependencies will vary by operating system. There are some R dependencies you might have to install if you're on Linux. See `dependencies.sh`.
+
+Note that the zipped files are in the 100-250MB range. So, they may take a while to download and unzip. Once unzipped, they are each in the 1-5 GB range. 
+
+If you want to make gifs in R using many years' worth of data (say, more than 10), you should have >8GB of RAM. 
 
